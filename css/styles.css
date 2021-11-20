@@ -156,7 +156,7 @@
     border-top: 4px solid #7a7a7a;
     content: '';
     position: absolute;
-    bottom: 2em;
+    bottom: 2.4em;
 }
 
 #featured-images{
@@ -198,4 +198,33 @@
         opacity: 0;
     }
 }
-/*      1:06:33      */
+
+/* INFO */
+#info-content{
+    margin-bottom: 4em;
+    padding: 4em 1em;
+}
+#info-numbers{
+    margin: 1.5em 0 ;
+}
+#info-banner{
+    display: flex;
+    align-items: center;
+    margin-bottom: 2.5;
+}
+#info-numbers h3{
+    font-size: 3em;
+}
+
+@media(min-width: 768px){
+    #info-content{
+        padding: 3.5em;
+    }
+    h2.title:before{
+    width: 75px;
+    border-top: 4px solid #7a7a7a;
+    content: '';
+    position: absolute;
+    bottom: 2.5em;
+    }
+}
