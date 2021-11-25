@@ -228,3 +228,26 @@
     bottom: 2.5em;
     }
 }
+
+/* FOOTER TOP */
+#footer{
+    padding: 3em 2em;
+}
+#footer-top,
+#footer-top i{
+    color: #ffff;
+}
+
+#social-icons{
+    text-align: right;
+}
+
+#social-icons i{
+    margin-right: 1em;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+#social-icons i:hover{
+    color: purple;
+}
